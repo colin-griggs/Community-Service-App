@@ -1,0 +1,23 @@
+.sidebar {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 20vw;
+    background-color: var(--BROWN1);
+
+    justify-content: left;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+}

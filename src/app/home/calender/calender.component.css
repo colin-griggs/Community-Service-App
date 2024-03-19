@@ -1,0 +1,35 @@
+.calender {
+    padding-top: 35vh;
+    margin-left: 20%;
+}
+
+.background {
+    background-color: var(--BROWN2);
+    width: 79.1vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+h1 {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    margin-left: 10vw;
+    
+}
+
+table { 
+    margin-top: 3vh;
+    width: 75%;
+    margin-left: 10vw;
+    margin-bottom: 15vh;
+}
+
+table, td {
+    border: solid black;
+    border-collapse: collapse;
+}
+
+td {
+    height: 10vh;
+}

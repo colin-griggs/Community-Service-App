@@ -1,0 +1,21 @@
+.welcome {
+    margin-left: 30%;
+}
+
+h1 {
+    padding-top: 40vh;
+    font-size: 3rem;
+}
+
+h2 {
+    padding-top: 10vh;
+}
+
+p {
+    margin-right: 10vw;
+}
+
+.h2-p {
+    width: 55%;
+    float: left;
+}

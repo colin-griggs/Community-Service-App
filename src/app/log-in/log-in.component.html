@@ -1,0 +1,19 @@
+<app-side-bar></app-side-bar>
+
+<div class="log-in">
+<p>Log in works</p>
+
+<form action="https://httpbin.org/get" method="get">
+    <input class="input" type="text" name="name" id="name" placeholder="Name" required>
+    <input class="input" type="text" name="email" id="email" placeholder="Email" required><br>
+    <input class="input" type="tel" name="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    <input class="input" type="number" name="famSize" id="famSize" placeholder="Family Size" required><br>
+    <button class="input" type="submit">Submit</button>
+</form>
+
+<h2>Email</h2>
+<input type="email" name="email" [(ngModel)]="user.email">
+<h2>password</h2>
+<input type="password" name="password" [(ngModel)]="user.password">
+<button (click)= "signIn()" >Submit</button>
+</div>

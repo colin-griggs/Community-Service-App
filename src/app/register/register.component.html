@@ -1,0 +1,19 @@
+<div class="register">
+
+    <h2>Email</h2>
+    <input type="text" name="email" [(ngModel)]="user.email">
+    <h2>Password</h2>
+    <input type="password" name="password" [(ngModel)]="user.password">
+    <!-- <h2>Phone Number</h2>
+    <input type="number" name="phoneNumber" [(ngModel)]="user.phoneNumber">
+    <h2>Family Size</h2>
+    <input type="number" name="familySize" [(ngModel)]="user.familySize"> -->
+    <button (click)= "signUp()" >Register</button>
+
+    <div class="confirm" *ngIf="isConfirm">
+        <h2>Confirm Email</h2>
+        <input type="text" name="code" [(ngModel)]="user.code">
+        <button (click)= "confirmSignUp()" >Confirm</button>
+    </div>
+
+</div>
