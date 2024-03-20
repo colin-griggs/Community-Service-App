@@ -1,27 +1,15 @@
-# Cso
+# Community Service App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+The Community Service app is an app with a focus on back-end functionality. The app allows users to register, log in, and log out using AWS service Cognito. I am also currently integrating a calendar with functionality from AWS Lambda as well as creating an API to interact with my relational database in MySql.
 
-## Development server
+## Register Page
+![Register Page](/ReadMeIMG/Register.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## DevTools for AWS Interaction
+![DevTools Screenshots](/ReadMeIMG/Logging%20In.png)
 
-## Code scaffolding
+## API that creates a connection to a database
+![API that makes database connection](/ReadMeIMG/APIdbconnections.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## MySql Queries
+![MySql Queries](/ReadMeIMG/MySql.png)
